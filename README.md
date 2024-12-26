@@ -11,6 +11,13 @@ make up
 
 
 ## Як запустити вручну
+
+### Фронтенд
+
+```bash
+# Заповніть .env файли в ./backend & ./frontend
+```
+
 ### Фронтенд
 
 ```bash
@@ -18,10 +25,10 @@ make up
 cd frontend
 
 # Встановіть залежності:
-yarn
+npm install
 
 # Запустіть розробку:
-yarn dev
+npm run dev
 ```
 
 ### Бекенд
@@ -31,10 +38,10 @@ yarn dev
 cd backend
 
 # Встановіть залежності:
-yarn
+npm install
 
 # Запустіть розробку:
-yarn dev
+npm run dev
 
 ```
 
