@@ -76,7 +76,6 @@ class UserController {
   async checkAuth(req: Request, res: Response): Promise<void> {
     try {
       const accessToken = req.cookies.accessToken;  
-      console.log('ok1');
 
       if (!accessToken) {
         forbiddenServerError(res, 'Access token missing');
@@ -84,12 +83,10 @@ class UserController {
       }
 
       const user = UserService.verifyAccessToken(accessToken);  
-      console.log('ok2');
       if (!user) {
         forbiddenServerError(res, 'Invalid token');
         return;
       }
-      console.log('ok3');
       res.status(200).json({ isAuthenticated: true, user });
     } catch (error) {
       internalServerError(res, 'Failed to check authentication status');

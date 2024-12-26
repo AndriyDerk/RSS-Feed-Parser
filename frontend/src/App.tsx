@@ -1,4 +1,3 @@
-import 'dotenv/config';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext'; 
 import Home from './components/Home';

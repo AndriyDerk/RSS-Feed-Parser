@@ -1,6 +1,6 @@
-# FNDIT TEST TASK
+# RSS-Feed-Parser TEST TASK
 
-## Як запустити вручну
+## Як запустити
 
 ### Підготовка
 
@@ -15,7 +15,7 @@
 cd frontend
 
 # Встановіть залежності:
-npm install
+npm i
 
 # Запустіть розробку:
 npm run dev
@@ -28,7 +28,7 @@ npm run dev
 cd backend
 
 # Встановіть залежності:
-npm install
+npm i
 
 # Запустіть розробку:
 npm run dev
