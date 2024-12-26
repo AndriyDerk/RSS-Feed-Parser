@@ -6,6 +6,7 @@
 
 ```bash
 # Заповніть .env файли в ./backend & ./frontend
+# Документацію можна знайти за http://localhost:${BACKEND_PORT}/api-docs/
 ```
 
 ### Фронтенд
